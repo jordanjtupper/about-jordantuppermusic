@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jordan Tupper | Baton Rouge Musician, Vocalist & Bass Guitarist</title>
+<meta name="description" content="Jordan Tupper is a Baton Rouge-based musician, vocalist, and bass guitarist performing with Night Hog, Cover 6 Band, and Jim Standley Jazz. Available for weddings, corporate events, and private parties.">
+<meta name="keywords" content="Jordan Tupper, Baton Rouge musician, Night Hog, Cover 6 Band, Jim Standley Jazz, Louisiana live music, bass guitarist, vocalist, wedding band Baton Rouge">
+<meta name="author" content="Jordan J. Tupper">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Jordan Tupper | Baton Rouge Musician">
+<meta property="og:description" content="Musician, vocalist, and bass guitarist performing with Night Hog, Cover 6 Band, and Jim Standley Jazz in Baton Rouge, Louisiana.">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://about.jordantuppermusic.com">
+
+<!-- Schema markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Jordan Tupper",
+  "alternateName": "Jordan J. Tupper",
+  "url": "https://about.jordantuppermusic.com",
+  "email": "jordan.j.tupper@gmail.com",
+  "jobTitle": "Musician, Vocalist, Bass Guitarist",
+  "description": "Baton Rouge-based professional musician performing with three groups: Night Hog (classic rock), Cover 6 Band, and Jim Standley Jazz. Music educator and former band director with 19+ years of experience.",
+  "image": "https://jordantuppermusic.com/favicon.png",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Baton Rouge",
+    "addressRegion": "LA",
+    "addressCountry": "US"
+  },
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "Louisiana State University"
+  },
+  "sameAs": [
+    "https://jordantupper.com",
+    "https://jordantuppermusic.com",
+    "https://nighthogbr.com",
+    "https://cover6band.com",
+    "https://www.linkedin.com/in/jordantupper225"
+  ],
+  "memberOf": [
+    {
+      "@type": "MusicGroup",
+      "name": "Night Hog",
+      "genre": "Classic Rock",
+      "url": "https://nighthogbr.com",
+      "location": "Baton Rouge, LA"
+    },
+    {
+      "@type": "MusicGroup",
+      "name": "Cover 6 Band",
+      "url": "https://cover6band.com",
+      "location": "Baton Rouge, LA"
+    },
+    {
+      "@type": "MusicGroup",
+      "name": "Jim Standley Jazz",
+      "genre": "Jazz",
+      "location": "Baton Rouge, LA"
+    }
+  ],
+  "knowsAbout": ["Music Performance", "Music Education", "Bass Guitar", "Vocals", "Live Event Music", "Digital Marketing"],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Digital Marketing Certificate",
+      "recognizedBy": {
+        "@type": "EducationalOrganization",
+        "name": "Louisiana State University"
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: #faf8f5;
+    color: #2c2c2c;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 60px 30px;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e8e3da;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+  }
+
+  .tagline {
+    font-size: 1.1rem;
+    color: #666;
+    font-style: italic;
+    letter-spacing: 0.5px;
+  }
+
+  .location {
+    margin-top: 8px;
+    font-size: 0.95rem;
+    color: #888;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  nav {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+  }
+
+  nav a {
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s;
+    padding-bottom: 2px;
+  }
+
+  nav a:hover {
+    color: #1a1a1a;
+    border-bottom-color: #1a1a1a;
+  }
+
+  section {
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  h3 {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #2c2c2c;
+    margin-bottom: 6px;
+  }
+
+  p {
+    margin-bottom: 16px;
+    color: #3a3a3a;
+  }
+
+  .band {
+    padding: 24px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 8px;
+    border-left: 4px solid;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+
+  .band.night-hog { border-left-color: #2d6b3f; }
+  .band.cover-6 { border-left-color: #a83232; }
+  .band.jim-standley { border-left-color: #2f5b8a; }
+
+  .band-meta {
+    font-size: 0.85rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+
+  .band a {
+    color: #2c2c2c;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+  }
+
+  .band a:hover {
+    border-bottom-style: solid;
+  }
+
+  .contact {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+
+  .contact a {
+    color: #2c2c2c;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .contact a:hover {
+    border-bottom-color: #1a1a1a;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid #e8e3da;
+    font-size: 0.85rem;
+    color: #888;
+  }
+
+  footer a {
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  footer a:hover {
+    border-bottom-color: #555;
+  }
+
+  @media (max-width: 600px) {
+    h1 { font-size: 2rem; }
+    .container { padding: 40px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>Jordan Tupper</h1>
+    <div class="tagline">Musician, Vocalist & Bass Guitarist</div>
+    <div class="location">Baton Rouge, Louisiana</div>
+    <nav>
+      <a href="https://jordantuppermusic.com">Home</a>
+      <a href="https://jordantupper.com">Professional</a>
+      <a href="https://nighthogbr.com">Night Hog</a>
+      <a href="https://cover6band.com">Cover 6</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>About Jordan</h2>
+    <p>Jordan J. Tupper is a Baton Rouge-based professional musician with nearly two decades of experience performing, teaching, and leading in music. A vocalist and bass guitarist, Jordan currently performs with three Baton Rouge groups across multiple genres — classic rock, contemporary covers, and jazz.</p>
+    <p>Beyond performing, Jordan brings a background as a former band director and music educator, and serves his community as a deacon at First Presbyterian Church of Baton Rouge. He holds a Digital Marketing Certificate from Louisiana State University, blending his music career with strong communications and program-management skills.</p>
+    <p>Jordan is available for private events, weddings, corporate functions, and venue bookings throughout South Louisiana and the Gulf South.</p>
+  </section>
+
+  <section>
+    <h2>Current Performance Groups</h2>
+
+    <div class="band night-hog">
+      <div class="band-meta">Classic Rock</div>
+      <h3>Night Hog</h3>
+      <p>A high-energy Baton Rouge classic rock cover band performing the catalog of rock's greatest decades — from Zeppelin and the Stones to Skynyrd, Tom Petty, and beyond. Jordan handles vocals and bass.</p>
+      <p><a href="https://nighthogbr.com">nighthogbr.com</a></p>
+    </div>
+
+    <div class="band cover-6">
+      <div class="band-meta">Contemporary Covers</div>
+      <h3>Cover 6 Band</h3>
+      <p>A versatile Baton Rouge cover band performing a broad mix of crowd-favorite material spanning multiple decades and genres. Available for weddings, private events, and venues throughout the region.</p>
+      <p><a href="https://cover6band.com">cover6band.com</a></p>
+    </div>
+
+    <div class="band jim-standley">
+      <div class="band-meta">Jazz</div>
+      <h3>Jim Standley Jazz</h3>
+      <p>A Baton Rouge jazz ensemble led by pianist Jim Standley, performing classic American jazz standards. Jordan rounds out the rhythm section on bass for select engagements.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Background</h2>
+    <p>Jordan's career has spanned music education, performance, and program leadership. As a former band director, he developed instrumental programs and taught students across multiple grade levels. His professional work has also included program management, community engagement, and board service for educational and faith-based organizations.</p>
+    <p>This blend of artistic and operational experience shapes how he approaches every gig — bringing not only musicianship but also reliability, professionalism, and a clear understanding of what makes an event run smoothly.</p>
+  </section>
+
+  <section>
+    <h2>Booking & Contact</h2>
+    <div class="contact">
+      <p>For booking inquiries, performance requests, or general questions:</p>
+      <p><a href="mailto:jordan.j.tupper@gmail.com">jordan.j.tupper@gmail.com</a></p>
+      <p style="margin-top: 12px; font-size: 0.9rem; color: #888;">Baton Rouge, Louisiana</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      <a href="https://jordantuppermusic.com">jordantuppermusic.com</a> ·
+      <a href="https://jordantupper.com">jordantupper.com</a> ·
+      <a href="https://nighthogbr.com">nighthogbr.com</a> ·
+      <a href="https://cover6band.com">cover6band.com</a>
+    </p>
+    <p style="margin-top: 12px;">© Jordan J. Tupper · Baton Rouge, LA</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
